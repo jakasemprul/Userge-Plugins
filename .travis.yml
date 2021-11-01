@@ -4,7 +4,7 @@ python:
   - "3.9"
 before_install:
   - cd ..
-  - git clone --depth=1 --branch=alpha https://github.com/UsergeTeam/Userge.git Userge
+  - git clone --depth=1 --branch=alpha https://github.com/jakasemprul/Userge.git Userge
   - mv Userge-Plugins/plugins/ Userge/userge/plugins/unof_plugins/
   - cp -r Userge-Plugins/resources/* Userge/resources/
 install:
